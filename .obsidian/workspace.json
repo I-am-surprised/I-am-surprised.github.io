@@ -141,13 +141,21 @@
                 "file": "source/_posts/测试obsidian/测试模板功能.md"
               }
             }
+          },
+          {
+            "id": "933c9eb484500e4e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
