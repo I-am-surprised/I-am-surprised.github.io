@@ -12,5 +12,6 @@
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "showLineNumber": true
 }
