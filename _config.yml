@@ -14,8 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-# 修改 permalink 让你的文章链接更加友好，并且有益于 SEO
-permalink: :year/:month/:hash.html
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -32,8 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-# 规定你的新文章在 _post 目录下是以 cateory 
-new_post_name: :category/:title
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -42,7 +40,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked: # 如果原本有就更改下面的这些选项，如果没有就添加
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js

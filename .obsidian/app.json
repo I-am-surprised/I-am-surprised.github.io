@@ -7,7 +7,7 @@
     "node_modules.nosync/"
   ],
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "./一、项目搭建",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
